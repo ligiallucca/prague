@@ -1,26 +1,39 @@
-header {
+header{
     width: 100%;
     height: 5vw;
     background-color: #000;
     position: fixed;
 }
 
-header .container {
+header .container{
     margin: auto;
-    width: 97%;
     height: 5vw;
     display: flex;
     justify-content: space-between;
-    background-color: #f000;
-
+    width: 97%;
 }
 
-header .logo {
+header .logo{
     width: 8vw;
     height: 5vw;
 }
 
-header .logo .logo_img {
+header .logo .logo_img{
     margin-top: 1.2vw;
-    width: 7.5;
+    width: 7.5vw;
+}
+
+header .menu{
+    padding-top: 2vw;
+}
+
+header .menu a{
+    color: #878787;
+    font-size: .7vw;
+    padding-right: 2vw;
+    transition-duration: 300ms;
+}
+header .menu a:hover, header .menu a:active, header .menu a:focus{
+    color: #0ff;
+    transition-duration:300ms;
 }
