@@ -11,3 +11,10 @@ body{
 a{
     text-decoration: none;
 }
+
+h3{
+    font-size: 1.3vw;
+    letter-spacing: 0.2vw;
+    color: #000;
+    padding: 0.5vw 0;
+}
