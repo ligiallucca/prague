@@ -14,7 +14,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-self: space-between;
+    align-self: space-around;
     align-content: center;
 }
 
@@ -30,16 +30,23 @@
 
 
 figure {
-    width: 30% ; 
-    
-
+    width: 30% ;    
+    margin-bottom: 4vw;
 }
+
 
 figure img {
 
     width: 90%;
     height: 80%;
 }
+
+.projects-container figure:hover img {
+    transition: all .4s ease;
+    margin-top: -1vw;
+    opacity: 0.95;
+    background-color: #000;
+    }
 
 figcaption {
     text-align: center;
@@ -50,7 +57,7 @@ figcaption {
 
 figure p {
     text-align: center;
-    font-size: 0.7vw;
+    font-size: 1vw;
     
 }
 
