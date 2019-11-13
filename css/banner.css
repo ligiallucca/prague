@@ -9,26 +9,24 @@
     display: flex;
 }
 
-.banner-container{
+.banner-container {
     width: 80%;
     padding: 10vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #111A;
-    
+    background-color: #111A;    
 }
 
-#banner h3, button, a{
+#banner h3, button, a {
     color: #FFF;
     font-family: Roboto;
     text-transform: uppercase;
     font-weight: 100;
-
 }
 
-#banner h2{
+#banner h2 {
     color: #FFF;
     font-family: Pacifico;
     font-size: 3vw;
@@ -44,5 +42,4 @@ button {
     font-weight: 400;
     padding: 0 2vw;
     margin-top: 2vw;
-    
 }
